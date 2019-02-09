@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+hr {
+    border: 1px dashed #b3afaf;
+    max-width: 90%;
+}
+
+
+.info {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info-commet_title {
+    font-size: 4em;
+    font-weight: 100;
+    margin-top: 70px;
+}
+
+.company {
+    text-align: center;
+    line-height: 39px;
+}
+
+.company_name {
+    font-size: 4em;
+    margin: 0;
+}
+
+.company_field {
+    font-size: 1.75em;
+} 
+
+.company_logo {
+    margin-bottom: 15px;
+}
+
+.commetn_form {
+    display: flex;
+    align-items: center;
+}
+
+.from-group {
+    margin-bottom: .7em;
+}
+
+.from-group:last-child {
+    margin-top: 30px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5em;
+}
+
+.texttype,
+.textMessage {
+    height: 3em;
+    box-sizing: border-box;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: .35em;
+    padding: .375rem .75rem;
+    margin-left: 20px;
+}
+
+.textMessage {
+    border: 2px solid black;
+    width: 500px;
+    height: 140px;
+    resize: none;
+    margin: 0;
+}
+
+.contacts {
+    margin-left: 30px;
+}
+
+.btn {
+    float: right;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background: white;
+    font-size: 1.2em;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 5em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.info_footer {
+    margin-bottom: 5px;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: .75em;
+}
+
+.adress {
+    border-bottom: 1px solid black;
+}
+
+.company_block-footer{
+    text-align: center;
+}
+
+.company_name-footer {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+.comments-block {
+    margin: 4em 0 2.5em 0;
+    border-bottom: 1px solid #b3afaf;
+}
+
+.user_data {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.data_item {
+    font-weight: lighter;
+    margin-left: 15px;
+    font-size: .7em;
+    color: rgba(0, 0, 0, 0.609);
+}
+
+.commetn_item {
+    margin-bottom: 2em;
+}
+.error {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.empty {
+    font-style: italic;
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, 0.671);
+}
